@@ -36,10 +36,7 @@ const HeroSection = () => {
                         Request a Demo
                     </button>
                 </div>
-                {/* Placeholder for a large illustration/screenshot */}
-                <div className="mt-16 bg-white bg-opacity-10 rounded-xl p-4 max-w-5xl mx-auto shadow-xl">
-                    <img src="https://placehold.co/1200x600/e0e7ff/4f46e5?text=Product+Dashboard+Screenshot" alt="Product Dashboard Screenshot" className="w-full h-auto rounded-lg shadow-lg" onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/1200x600/cccccc/333333?text=Image+Not+Available'; }} />
-                </div>
+                
             </div>
         </section>
     );
